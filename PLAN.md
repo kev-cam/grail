@@ -314,9 +314,11 @@ Target result: \*\*V\_core regulation band demonstrated across full PVT Monte Ca
 
 |---|---|
 
-| Q2 2026 | kestrel wrapper infrastructure, 2:1 LC topology in gdsfactory, SKY130 target |
+| Q2 2026 | kestrel plugin infrastructure — DONE: plugin system, CLI, GUI, KiCad schematic |
 
-| Q3 2026 | SW1/SW2 sizing, C\_fly DRC-clean, bond wire L model, Xyce netlist |
+| Q2 2026 | Design engine, SPICE netlist, Xyce simulation — DONE: ideal switches, resonant LC bootstrap, V\_out converges |
+
+| Q3 2026 | SW1/SW2 sizing, C\_fly DRC-clean, bond wire L model, transistor-level Xyce netlist |
 
 | Q3 2026 | 1-bit SETTLED controller in heron cells, co-simulation with heron pipeline |
 
